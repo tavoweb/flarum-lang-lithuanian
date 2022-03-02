@@ -4,7 +4,7 @@ Extension to translate your [Flarum](https://flarum.org/) forum and its extensio
 Admin panel language was kept in English to keep it more developer friendly.
 
 ## Documentation
-- Version 0.1
+- Version 1.0.1
 - Released on March 02, 2022
 - Compatable with Flarum 1.2.0
 - On [Packagist](https://packagist.org/packages/tavoweb/flarum-lang-lithuanian)
