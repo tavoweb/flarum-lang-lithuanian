@@ -1,0 +1,48 @@
+{
+	"name": "tavoweb/flarum-lang-lithuanian",
+	"type": "flarum-extension",
+	"description": "Lithuanian language pack for Flarum.",
+	"homepage": "https://github.com/tavoweb/flarum-lang-lithuanian",
+	"keywords": [
+		"locale",
+		"flarum",
+		"lithuanian-locale"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mindaugas Bartusevičius",
+			"email": "mindaugas@bartusevicius.eu",
+			"homepage": "https://tavoweb.lt"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/tavoweb/flarum-lang-lithuanian/issues",
+		"source": "https://github.com/tavoweb/flarum-lang-lithuanian"
+	},
+	"require": {
+		"flarum/core": "^1.2.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.5.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Lithuanian",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "lt",
+			"title": "Lietuvių"
+		},
+		"extiverse": {
+			"discuss": "https://discuss.flarum.org/"
+		}
+	}
+}
