@@ -2,25 +2,24 @@ core:
   admin:
     appearance:
       colored_header_label: Spalvota antraštė
-      colors_heading: Colors
+      colors_heading: Spalvos
       colors_text: >-
-        Choose two colors to theme your forum with. The first will be used as a
-        highlight color, while the second will be used to style background
-        elements.
-      custom_footer_heading: Custom Footer
+        Pasirinkite dvi temos spalvas. Pirmasis bus naudojama kaip
+        pary6kintoji spalva, o antrasis bus naudojama foniniams elementams formuoti.
+      custom_footer_heading: Individualus footer
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: Custom Header
       custom_header_text: '=> core.ref.custom_header_text'
-      custom_styles_heading: Custom Styles
+      custom_styles_heading: Individualūs stiliai
       custom_styles_text: >-
         Customize your forum's appearance by adding your own LESS/CSS code to be
         applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
+      dark_mode_label: Tamsus režimas 
       description: Customize your forum's colors, logos, and other variables.
-      edit_css_button: Edit Custom CSS
+      edit_css_button: Redaguoti individualų CSS
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
-      enter_hex_message: Please enter a hexadecimal color code.
+      enter_hex_message: Prašome įvesti hexadecimal spalvos kodą.
       favicon_heading: Favicon
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
       logo_heading: Logo
@@ -48,17 +47,17 @@ core:
       slug_driver_heading: 'Slug Driver: {model}'
       slug_driver_text: Select a driver to be used for slugging this model.
       title: Pagrindai
-      welcome_banner_heading: Welcome Banner
+      welcome_banner_heading: Sveikinimo reklamjuostė
       welcome_banner_text: >-
         Configure the text that displays in the banner on the All Discussions
         page. Use this to welcome guests to your forum.
       saved_message: Jūsų pakeitimai buvo išsaugoti.
       submit_button: '=> core.ref.save_changes'
     dashboard:
-      clear_cache_button: Clear Cache
+      clear_cache_button: Išvalyti talpyklą
       description: Your forum at a glance.
-      title: Dashboard
-      tools_button: Tools
+      title: Skydelis
+      tools_button: Įrankiai
     edit_css:
       customize_text: >-
         Customize your forum's appearance by adding your own LESS/CSS code to be
@@ -192,9 +191,9 @@ core:
       rename_discussions_label: Rename discussions
       reply_to_discussions_label: Reply to discussions
       search_users_label: Ieškoti vartotojų
-      sign_up_label: Sign up
+      sign_up_label: Registruotis
       start_discussions_label: Start discussions
-      title: Permissions
+      title: Leidimai
       view_forum_label: ''
       view_hidden_groups_label: View hidden group badges
       view_last_seen_at_label: Always view user last seen time
@@ -361,7 +360,7 @@ core:
       toggle_dropdown_accessible_label: ''
       tooltip: '=> core.ref.notifications'
     post:
-      edited_text: Redaguota
+      edited_text: Redaguotas tekstas
       edited_tooltip: '{username} redagavo {ago}'
       number_tooltip: '#{number} pranešimas'
     post_controls:
@@ -629,7 +628,7 @@ core:
     change_password: Keisti slaptažodį
     color: Spalva
     confirm_password: Patvirtinkite slaptažodį
-    confirm_email: ''
+    confirm_email: 'Patvirtinkite el. paštą'
     confirmation_email_sent: >-
       Išsiuntėme patvirtinimo el. laišką adresu {email}. Jei jis nepasirodys per
       kelias minutes, patikrinkite šlamšto aplanką.
@@ -651,7 +650,7 @@ core:
       Enter the name of any <a>FontAwesome</a> icon class, <em>including</em>
       the <code>fas fa-</code> prefix.
     load_more: Įkelti daugiau
-    loading: ''
+    loading: 'Kraunama'
     log_in: Prisijungti
     log_out: Atsijungti
     mark_all_as_read: Pažymėti visus kaip skaitytus

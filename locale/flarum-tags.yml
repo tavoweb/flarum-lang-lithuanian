@@ -42,7 +42,7 @@ flarum-tags:
       create_secondary_tag_button: Create Secondary Tag
       primary_heading: Primary Tags
       secondary_heading: Secondary Tags
-      settings_heading: Settings
+      settings_heading: Nustatymai
   forum:
     all_tags:
       meta_description_text: Visos etiketės
@@ -78,4 +78,4 @@ flarum-tags:
     deleted_tag_text: Ištrinta
   ref:
     name: Pavadinimas
-    tags: Etiketės
+    tags: Žymos
