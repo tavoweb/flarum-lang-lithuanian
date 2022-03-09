@@ -100,7 +100,7 @@ core:
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
       mail_username_label: '=> core.ref.username'
-      mailgun_heading: Mailgun Settings
+      mailgun_heading: Mailgun Nustatymai
       not_sending_message: >-
         Flarum currently does not send emails. This can be due to the selected
         driver, or errors in its configuration.
